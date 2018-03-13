@@ -1,0 +1,41 @@
+{
+  "name": "wikibot",
+  "version": "0.0.1",
+  "description": "wikibot",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "dependencies": {
+    "express": "latest",
+    "google-translate-api": "^2.2.2",
+    "imdb-api": "^3.1.1",
+    "imdb-nodejs-api": "0.0.1",
+    "jade": "latest",
+    "java": ">=0.8.0",
+    "mysql": "latest",
+    "nan": "^2.6.2",
+    "node-gyp": "^3.6.1",
+    "node-webkit": "0.0.0",
+    "nodemon": "latest",
+    "nw-gyp": "^3.4.0",
+    "opennlp": "2.0.0",
+    "postinstall-build": "^3.0.0",
+    "pug": "latest",
+    "socket.io": "latest"
+  },
+  "engines": {
+    "node": "latest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/heroku/node-js-sample"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ],
+  "author": "vijo",
+  "creation date": "April 10, 2017",
+  "license": "MIT"
+}

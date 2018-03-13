@@ -1,0 +1,12 @@
+
+body {
+    background: 1ddced;
+}
+
+.chatroom {
+    width: 500px;
+    min-width: 390;
+    height: 600px;
+    background: #fff;
+}
+

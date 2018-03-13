@@ -1,0 +1,29 @@
+doctype
+html
+	head
+		
+		title= "Chat with Pizza Bot"
+		script(src='/chat.js')
+		script(src='/socket.io/socket.io.js')
+		script(src='http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js')
+    
+	body(id="widget" style="background-color: #E8E1E9;margin: 0;padding: 0;font-family: Tahoma, sans-serif;box-sizing: border-box;") 
+	
+		#chatroom(style="width: 550px;min-width: 390px;height: 570px;background: #D8FFFF; border: 0.5px solid #008000; padding: 25px;margin: 20px auto;box-shadow: 0 3px #ccc;")
+		
+			#chatlogs(style='padding: 10px;width: 100%;height: 370px;background: #F9FDFE;overflow-x: hidden;overflow-y: scroll;')
+				#content(style='display: flex;flex-flow: row wrap;align-items: flex-start;margin-bottom: 10px;')
+					
+					
+					<div id="content" style="align:center; width=100%;color: ##008080;font-size: 18px;"><b> Welcome to the wiki bot !!!</b></div>
+					
+
+			p
+			label#typeIndicator(style="width: 100%;text-align: left; font-size: 12px") 
+
+			p
+			textarea#field(placeholder="Type a message here !" style=' width: 95%; height: 70px;border: 1px solid #CC9900;border-radius: 3px;resize:none;padding: 10px;font-size: 15px;')
+			
+			p
+			input#send(type='button', value='Send', style="background: blue; width: 70px; height:45px; font-size: 22px; padding 10 px; color: #fff;border: none;margin: 0 225px;border-radius: 3px;cursor: pointer;")
+			
